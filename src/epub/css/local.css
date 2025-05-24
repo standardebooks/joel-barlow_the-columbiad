@@ -88,3 +88,46 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 /* end full-page epigraphs */
+
+/* header formats */
+[epub|type~="z3998:poem"] header > p:first-of-type{
+	text-align: center;
+	font-variant: small-caps;
+}
+/* end header formats */
+
+/* endnotes list and headers */
+#note-20 header > p:first-of-type{
+	font-variant: small-caps;
+}
+
+#note-20 > p:first-of-type{
+	margin-top: 1em;
+}
+
+#note-46 header > p{
+	font-variant: small-caps;
+}
+
+ol ul{
+	list-style-type: none;
+}
+
+li header{
+	margin-top: 1em;
+}
+
+#note-46 ul li p{
+	text-indent: -1em;
+}
+
+ol div > header p{
+	font-size: 1.2em;
+}
+
+div:nth-of-type(9) li ul{
+	break-inside: avoid;
+	column-gap: 2em;
+	columns: 3;
+}
+/* end endnotes lists and headers */
