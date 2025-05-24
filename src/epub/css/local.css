@@ -41,7 +41,7 @@
 /* language styling */
 blockquote[xml|lang],
 blockquote p[xml|lang]{
-        font-style: italic;
+	font-style: italic;
 }
 /* end language styling */
 
@@ -91,12 +91,12 @@ section[epub|type~="epigraph"] > *{
 
 /* header formats */
 [epub|type~="z3998:poem"] header > p:first-of-type{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
 /* end header formats */
-
 /* endnotes list and headers */
+
 #note-20 header > p:first-of-type{
 	font-variant: small-caps;
 }
