@@ -92,13 +92,6 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 /* end full-page epigraphs */
-
-/* header formats */
-[epub|type~="z3998:poem"] header > p:first-of-type{
-	font-variant: small-caps;
-	text-align: center;
-}
-/* end header formats */
 /* endnotes list and headers */
 
 #note-20 header > p:first-of-type{
