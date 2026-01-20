@@ -48,7 +48,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/8683</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/009722549</dc:source>
 		<meta property="se:production-notes">One inline footnote moved to endnotes, endnotes were renumbered. Some of author’s spelling innovations reverted to modern spelling.</meta>
-		<meta property="se:word-count">66957</meta>
+		<meta property="se:word-count">65204</meta>
 		<meta property="se:reading-ease.flesch">55.0</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Columbiad</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/joel-barlow_the-columbiad</meta>
