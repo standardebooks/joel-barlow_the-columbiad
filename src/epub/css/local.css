@@ -123,9 +123,11 @@ ol div > header p{
 	font-size: larger;
 }
 
-div:nth-of-type(9) li ul{
-	break-inside: avoid;
-	column-gap: 2em;
-	columns: 3;
+@supports(columns: 3){
+	div:nth-of-type(9) li ul{
+		break-inside: avoid;
+		column-gap: 2em;
+		columns: 3;
+	}
 }
 /* end endnotes lists and headers */
